@@ -2,6 +2,7 @@
     height: 400px;
     width: 100%;
     background: url(../img/hero-mobile.jpg) no-repeat;
+    background-position: center;
     background-size: cover;
 }
 
@@ -9,6 +10,7 @@
     .hero-img {
         height: 620px;
         background: url(../img/hero-tablet.jpg) no-repeat;
+        background-position: center;
         background-size: cover;
     }
 }
@@ -16,6 +18,7 @@
 @media screen and (min-width: 1024px) {
     .hero-img {
         background: url(../img/hero-desktop.jpg) no-repeat;
+        background-position: center;
         background-size: cover;
     }
 }
