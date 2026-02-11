@@ -59,6 +59,17 @@ section.hero {
     margin: 16px auto 32px;
 }
 
+.content-title {
+    font-size: 1.75rem;
+    font-weight: var(--title-weight);
+}
+
+.content-text {
+    font-size: 1.25rem;
+    font-weight: var(--text-weight);
+    line-height: 32px;
+}
+
 .button {
     width: 280px;
     height: 64px;
