@@ -35,6 +35,14 @@ body {
     color: var(--text-primary-color);
 }
 
+section {
+    margin-bottom: 88px;
+}
+
+section.hero {
+    margin: 0;
+}
+
 .section-title h2 {
     font-size: 1.75rem;
     font-weight: var(--title-weight);
@@ -62,6 +70,7 @@ body {
     display: inline-block;
     text-decoration: none;
     line-height: 64px;
+    text-align: center;
 }
 
 @media screen and (min-width: 768px) {
