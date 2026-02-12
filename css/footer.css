@@ -29,3 +29,40 @@
 .main-footer .footer-container .social-media p {
     margin-bottom: 16px;
 }
+
+@media screen and (min-width: 768px) {
+    .main-footer {
+        padding: 32px 60px;
+    }
+
+    .main-footer .footer-container .footer-content p {
+        width: 592px;
+        font-size: 1.25rem;
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+
+    .main-footer .footer-container .footer-content p {
+        width: 100%;
+    }
+
+}
+
+@media screen and (min-width: 1440px) {
+
+    .main-footer {
+        padding: 52px 120px;
+    }
+
+    .main-footer .footer-container {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .main-footer .footer-container .footer-content {
+        text-align: left;
+    }
+}
