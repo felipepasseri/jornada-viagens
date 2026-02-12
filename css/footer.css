@@ -1,0 +1,12 @@
+.main-footer {
+    background-color: var(--background-tertiary-color);
+    color: var(--text-secondary-color);
+    font-size: 1rem;
+    font-weight: var(--text-weight);
+    text-align: center;
+}
+
+.main-footer .footer-container .footer-content p {
+    line-height: 28px;
+    margin-bottom: 8px;
+}
