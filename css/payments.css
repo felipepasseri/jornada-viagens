@@ -70,4 +70,10 @@
     .payments .text-content {
         width: 360px;
     }
+
+    .text-content .content-title {
+        margin-top: 0;
+        margin-bottom: 24px;
+    }
+
 }
