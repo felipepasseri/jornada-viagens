@@ -18,16 +18,11 @@
 }
 
 .item h4 {
-    font-size: 1.75rem;
-    font-weight: var(--title-weight);
     margin-bottom: 24px;
 }
 
 .item p {
-    font-size: 1.25rem;
-    font-weight: var(--text-weight);
     margin-bottom: 24px;
-    line-height: 32px;
 }
 
 .item {
@@ -40,12 +35,12 @@
 }
 
 .img-item.tokyo {
-    background-image: url(../img/tokyo-mobile.jpg);
+    background: url(../img/tokyo-mobile.jpg) no-repeat;
     background-size: cover;
 }
 
 .img-item.osaka {
-    background-image: url(../img/osaka-mobile.jpg);
+    background: url(../img/osaka-mobile.jpg) no-repeat;
     background-size: cover;
 }
 
@@ -59,11 +54,11 @@
     }
 
     .img-item.tokyo {
-        background-image: url(../img/tokyo-tablet-desk.jpg);
+        background: url(../img/tokyo-tablet-desk.jpg) no-repeat;
     }
 
     .img-item.osaka {
-        background-image: url(../img/osaka-tablet-desk.jpg);
+        background: url(../img/osaka-tablet-desk.jpg) no-repeat;
     }
 
     .item footer .button {
