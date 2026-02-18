@@ -1,8 +1,3 @@
-.destinations .section-title {
-    width: 280px;
-    margin: 0 auto;
-}
-
 .destination-items {
     display: flex;
     flex-direction: column;
@@ -55,19 +50,20 @@
 
     .img-item.tokyo {
         background: url(../img/tokyo-tablet-desk.jpg) no-repeat;
+        background-position: center;
+        background-size: cover;
     }
 
     .img-item.osaka {
         background: url(../img/osaka-tablet-desk.jpg) no-repeat;
+        background-position: center;
+        background-size: cover;
     }
 
     .item footer .button {
         width: 280px;
     }
 
-    .destinations .section-title {
-        width: 325px;
-    }
 }
 
 @media screen and (min-width: 1024px) {
