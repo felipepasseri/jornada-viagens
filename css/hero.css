@@ -29,6 +29,7 @@
     background-size: cover;
     box-sizing: border-box;
     position: relative;
+    margin-bottom: 88px;
 }
 .hero-title {
     width: 312px;
