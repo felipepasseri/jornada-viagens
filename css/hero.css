@@ -28,16 +28,13 @@
     background-position: center;
     background-size: cover;
     box-sizing: border-box;
-    position: relative;
     margin-bottom: 88px;
+    padding: 65px 0;
 }
 .hero-title {
     width: 312px;
     text-align: left;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    margin: 0 auto;
 }
 
 .hero-title h2 {
@@ -77,8 +74,18 @@
     }
 
     /*PACOTES DE VIAGEM*/
+    .hero-img.hero-japao {
+        position: relative;
+        padding: 0;
+    }
+
     .hero-title {
         width: 580px;
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
     
     .hero-title h2 {
@@ -130,7 +137,7 @@
         width: 580px;
         position: relative;
         left: 0%;
-        transform: translate(0%, -50%);
+        transform: translate(0%,-50%);
     }
 
     .hero-title h2 {
