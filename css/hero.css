@@ -1,18 +1,65 @@
 .hero-img {
-    height: 400px;
+    height: 460px;
     width: 100%;
     background: url(../img/hero-mobile.jpg) no-repeat;
     background-position: center;
     background-size: cover;
 }
 
-.hero h2 {
+
+
+
+.hero > h2 {
     padding: 88px 24px;
     margin: 0;
     font-weight: var(--text-weight);
     font-size: 1.25rem;
     line-height: 1.5;
     text-align: center;
+}
+
+
+/*PACOTES DE VIAGEM*/
+
+.hero-img.hero-japao {
+    background: url(../img/hero-japao.jpg) no-repeat;
+    background-color: #0000004D;
+    background-blend-mode: multiply;
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+    position: relative;
+    margin-bottom: 88px;
+}
+.hero-title {
+    width: 312px;
+    text-align: left;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hero-title h2 {
+    font-size: 3rem;
+    font-weight: var(--title-weight);
+    margin: 0;
+    color: var(--text-secondary-color);
+}
+
+.hero-title  hr {
+    width: 180px;
+    height: 4px;
+    background-color: var(--secondary-color);
+    border: none;
+    margin: 16px 0 32px;
+}
+
+.hero-title p {
+    color: var(--text-secondary-color);
+    font-size: 1.25rem;
+    font-weight: var(--text-weight);
+    line-height: 32px;
 }
 
 @media screen and (min-width: 768px) {
@@ -22,31 +69,89 @@
         background-position: center;
         background-size: cover;
     }
-
-    .hero h2 {
+    
+    
+    .hero > h2 {
         padding: 88px 60px;
         font-size: 2rem;
+    }
+
+    /*PACOTES DE VIAGEM*/
+    .hero-title {
+        width: 580px;
+    }
+    
+    .hero-title h2 {
+        font-size: 3rem;
+        font-weight: var(--title-weight);
+        margin: 0;
+        color: var(--text-secondary-color);
+    }
+    
+    .hero-title p {
+        font-size: 2rem;
+        line-height: 1.5;
     }
 }
 
 @media screen and (min-width: 1024px) {
+
+    
     .hero-img {
         background: url(../img/hero-desktop.jpg) no-repeat;
         background-position: center;
         background-size: cover;
+    } 
+    
+    .hero > h2 {
+        padding: 104px 120px;
+        font-size: 2rem;
     }
 
-    .hero h2 {
-        padding: 104px 120px;
+    /*PACOTES DE VIAGEM*/
+    .hero-title {
+        width: 770px;
+    }
+    
+    
+}
+
+@media screen and (min-width: 1440px) {
+    .hero-img.hero-japao {
+        background: url(../img/hero-japao.jpg) no-repeat;
+        background-color: #0000004D;
+        background-blend-mode: multiply;
+        background-position: center;
+        background-size: cover;
+        box-sizing: border-box;
+        padding-left: 120px;
+    }
+    .hero-title {
+        width: 580px;
+        position: relative;
+        left: 0%;
+        transform: translate(0%, -50%);
+    }
+
+    .hero-title h2 {
+        font-size: 3rem;
+        font-weight: var(--title-weight);
+        margin: 0;
+        color: var(--text-secondary-color);
+    }
+    
+    .hero-title p {
         font-size: 2rem;
     }
 }
 
 @media screen and (min-width: 1920px) {
 
-    .hero h2 {
+    .hero > h2 {
         padding: 104px 160px;
         font-size: 2rem;
     }
+
+    
 
 }
