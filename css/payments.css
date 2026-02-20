@@ -143,4 +143,12 @@
         margin-bottom: 24px;
     }
 
+    /*TRAVEL PACKAGE*/
+
+    .payments .content-container.travel-package {
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
 }
