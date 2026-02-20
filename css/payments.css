@@ -91,6 +91,32 @@
         background: url(../img/people-tablet.png) no-repeat;
         background-size: cover;
     }
+
+    /*TRAVEL PACKAGE*/
+    .payments .content-container .image-gallery .image.temple{
+        background: url(../img/temple-japan-tablet-desk.jpg) no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .payments .content-container .image-gallery .image.street{
+        background: url(../img/street-japan-tablet-desk.jpg) no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .payments .content-container .image-gallery .image.monk{
+        background: url(../img/monk-japan-tablet-desk.jpg) no-repeat;
+        background-size: cover;
+        background-position: center;    
+    }
+    .payments .content-container .text-content .content-text {
+        margin: 0;
+    }
+    
+    .payments .content-container .text-content .button {
+        display: none;
+    }
 }
 
 @media screen and (min-width: 1440px) {
