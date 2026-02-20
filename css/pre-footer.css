@@ -1,4 +1,4 @@
-.pre-footer {
+.pre-footer-hero {
     margin: 0;
     width: 100%;
 }
@@ -7,6 +7,12 @@
     width: 100%;
     height: 400px;
     background: url(../img/pre-footer.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.pre-footer-img.travel-package {
+    background: url(../img/pre-footer-travel-package.jpg) no-repeat;
     background-position: center;
     background-size: cover;
 }
