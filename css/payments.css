@@ -57,6 +57,24 @@
     width: 100%;
 }
 
+.payments .content-container .image-gallery .image.temple{
+    background: url(../img/temple-japan-mobile.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.payments .content-container .image-gallery .image.street{
+    background: url(../img/street-japan-mobile.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.payments .content-container .image-gallery .image.monk{
+    background: url(../img/monk-japan-mobile.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;    
+}
+
 
 @media screen and (min-width: 768px) {
     .image-gallery .image.bag{
