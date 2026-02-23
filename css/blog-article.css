@@ -37,3 +37,23 @@
     background-position: center;
     height: 360px;
 }
+
+@media screen and (min-width: 768px) {
+    .article-blog {
+        width: 648px;
+    }
+
+    #arrival-container {
+        display: flex;
+        align-items: center;
+        gap: 24px;
+    }
+
+    #content-text {
+        width: 50%;
+    }
+
+    .img-blog {
+        width: 50%;
+    }
+}
