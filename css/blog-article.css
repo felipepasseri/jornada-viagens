@@ -101,4 +101,8 @@
         background-position: center;
         height: 300px;
     }
+
+    .article-blog section {
+        margin-bottom: 48px;
+    }
 }
