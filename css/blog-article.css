@@ -7,6 +7,11 @@
     margin-bottom: 32px;
 }
 
+.article-blog #accommodation figure {
+    width: 100%;
+    margin: 0;
+}
+
 .section-title hr {
     margin-bottom: 56px;
 }
@@ -31,11 +36,25 @@
     margin-top: 24px;
 }
 
+.img-legend {
+    font-size: 0.875rem;
+    line-height: 28px;
+    font-weight: var(--text-weight);
+    color: var(--text-primary-color);
+}
+
 .store-tokyo-img {
     background: url('../img/blog-img/store-tokyo.jpg') no-repeat;
     background-size: cover;
     background-position: center;
     height: 360px;
+}
+
+.blog-tokyo-img {
+    background: url('../img/tokyo-mobile.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
 }
 
 @media screen and (min-width: 768px) {
@@ -52,9 +71,16 @@
         width: 50%;
     }
 
-    .img-blog {
+    .img-blog.store-tokyo-img {
         width: 50%;
         margin: 0;
+    }
+
+    .blog-tokyo-img {
+        background: url('../img/blog-img/blog-tokyo-tablet-desk.jpg') no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 300px;
     }
 }
 
@@ -67,5 +93,12 @@
 @media screen and (min-width: 1440px) {
     .article-blog {
         width: 1200px;
+    }
+
+    .blog-tokyo-img {
+        background: url('../img/blog-img/blog-tokyo-tablet-desk.jpg') no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 300px;
     }
 }
