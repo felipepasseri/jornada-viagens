@@ -1,6 +1,7 @@
 .article-blog {
     width: 312px;
     margin: 0 auto;
+    margin-bottom: 88px;
 }
 
 .article-blog section {
@@ -93,6 +94,7 @@
 @media screen and (min-width: 1440px) {
     .article-blog {
         width: 1200px;
+        margin-bottom: 88px;
     }
 
     .blog-tokyo-img {
