@@ -1,9 +1,13 @@
 .hero-img {
     height: 460px;
     width: 100%;
-    background: url(../img/hero-mobile.jpg) no-repeat;
+    box-sizing: border-box;
     background-position: center;
     background-size: cover;
+}
+
+.hero-img.main-hero {
+    background: url(../img/hero-mobile.jpg) no-repeat;
 }
 
 
@@ -34,7 +38,6 @@
 .hero-title {
     width: 312px;
     text-align: left;
-    margin: 0 auto;
 }
 
 .hero-title h2 {
@@ -59,12 +62,27 @@
     line-height: 32px;
 }
 
+/*BLOG JORNADA*/ 
+
+.hero-img.hero-blog {
+    background: url(../img/blog-img/hero-blog.jpg) no-repeat;
+    background-color: #0000004D;
+    background-blend-mode: multiply;
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+    margin-bottom: 88px;
+}
+
 @media screen and (min-width: 768px) {
     .hero-img {
         height: 620px;
-        background: url(../img/hero-tablet.jpg) no-repeat;
         background-position: center;
         background-size: cover;
+    }
+
+    .hero-img.main-hero {
+        background: url(../img/hero-tablet.jpg) no-repeat;
     }
     
     
@@ -103,12 +121,11 @@
 
 @media screen and (min-width: 1024px) {
 
-    
-    .hero-img {
+    .hero-img.main-hero {
         background: url(../img/hero-desktop.jpg) no-repeat;
         background-position: center;
         background-size: cover;
-    } 
+    }
     
     .hero > h2 {
         padding: 104px 120px;
