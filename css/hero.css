@@ -1,16 +1,14 @@
 .hero-img {
     height: 460px;
     width: 100%;
-    box-sizing: border-box;
-    background-position: center;
-    background-size: cover;
+    box-sizing: border-box; 
 }
 
 .hero-img.main-hero {
     background: url(../img/hero-mobile.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
 }
-
-
 
 
 .hero > h2 {
@@ -31,13 +29,13 @@
     background-blend-mode: multiply;
     background-position: center;
     background-size: cover;
-    box-sizing: border-box;
     margin-bottom: 88px;
     padding: 65px 0;
 }
 .hero-title {
     width: 312px;
     text-align: left;
+    margin: 0 auto;
 }
 
 .hero-title h2 {
@@ -60,29 +58,31 @@
     font-size: 1.25rem;
     font-weight: var(--text-weight);
     line-height: 32px;
+    margin: 0;
 }
 
 /*BLOG JORNADA*/ 
 
 .hero-img.hero-blog {
     background: url(../img/blog-img/hero-blog.jpg) no-repeat;
-    background-color: #0000004D;
+    background-color: #00000080;
     background-blend-mode: multiply;
     background-position: center;
     background-size: cover;
-    box-sizing: border-box;
     margin-bottom: 88px;
+    padding: 80px 0;
 }
 
 @media screen and (min-width: 768px) {
     .hero-img {
         height: 620px;
-        background-position: center;
-        background-size: cover;
+        position: relative;
     }
 
     .hero-img.main-hero {
         background: url(../img/hero-tablet.jpg) no-repeat;
+        background-position: center;
+        background-size: cover;
     }
     
     
@@ -93,7 +93,6 @@
 
     /*PACOTES DE VIAGEM*/
     .hero-img.hero-japao {
-        position: relative;
         padding: 0;
     }
 
@@ -116,6 +115,17 @@
     .hero-title p {
         font-size: 2rem;
         line-height: 1.5;
+    }
+
+    /*BLOG JORNADA*/ 
+
+    .hero-img.hero-blog {
+        background: url(../img/blog-img/hero-blog-reverse.jpg) no-repeat;
+        background-color: #00000080;
+        background-blend-mode: multiply;
+        background-position: center;
+        background-size: cover;
+        padding: 0;
     }
 }
 
@@ -141,13 +151,7 @@
 }
 
 @media screen and (min-width: 1440px) {
-    .hero-img.hero-japao {
-        background: url(../img/hero-japao.jpg) no-repeat;
-        background-color: #0000004D;
-        background-blend-mode: multiply;
-        background-position: center;
-        background-size: cover;
-        box-sizing: border-box;
+    .hero-img.hero-japao, .hero-img.hero-blog {
         padding-left: 120px;
     }
     .hero-title {
