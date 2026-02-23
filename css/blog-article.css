@@ -45,7 +45,6 @@
 
     #arrival-container {
         display: flex;
-        align-items: center;
         gap: 24px;
     }
 
@@ -55,5 +54,18 @@
 
     .img-blog {
         width: 50%;
+        margin: 0;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .article-blog {
+        width: 890px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .article-blog {
+        width: 1200px;
     }
 }
