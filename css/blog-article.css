@@ -1,0 +1,71 @@
+.article-blog {
+    width: 312px;
+    margin: 0 auto;
+}
+
+.article-blog section {
+    margin-bottom: 32px;
+}
+
+.section-title hr {
+    margin-bottom: 56px;
+}
+
+
+.blog-titles {
+    font-size: 1.75rem;
+    font-weight: var(--title-weight);
+    color: var(--text-primary-color);
+    margin: 0 0 24px 0;
+}
+
+.blog-text {
+    font-size: 1.25rem;
+    line-height: 32px;
+    font-weight: var(--text-weight);
+    margin: 0;
+}
+
+.img-blog {
+    width: 100%;
+    margin-top: 24px;
+}
+
+.store-tokyo-img {
+    background: url('../img/blog-img/store-tokyo.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 360px;
+}
+
+@media screen and (min-width: 768px) {
+    .article-blog {
+        width: 648px;
+    }
+
+    #arrival-container {
+        display: flex;
+        gap: 24px;
+    }
+
+    #content-text {
+        width: 50%;
+    }
+
+    .img-blog {
+        width: 50%;
+        margin: 0;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .article-blog {
+        width: 890px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .article-blog {
+        width: 1200px;
+    }
+}
