@@ -106,15 +106,18 @@
             id="userName"
             placeholder="Seu nome"
             title="Digite seu nome"
+            required
           />
           <br />
           <input
-            type="number"
+            type="tel"
             name="phoneNumber"
             id="userPhoneNumber"
             placeholder="Telefone"
             pattern="[0-9]{11}"
+            maxlength="11"
             title="Digite seu numero de telefone com 11 digitos, sem parenteses ou hífen"
+            required
           />
           <br />
           <input
@@ -123,12 +126,15 @@
             id="userEmail"
             placeholder="Email"
             title="Digite seu melhor email para que possamos responder"
+            required
           />
           <br />
           <textarea
             name="subject"
             id="userSubject"
             placeholder="Assunto"
+            title="Digite o que te motivou a entrar em contato"
+            required
           ></textarea>
           <button type="submit" class="button">Enviar</button>
         </form>
