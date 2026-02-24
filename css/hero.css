@@ -73,6 +73,18 @@
     padding: 80px 0;
 }
 
+/*ENTRE EM CONTATO*/
+.hero-img.hero-contact {
+    background: url(../img/contact-img/hero-contact.jpg) no-repeat;
+    background-color: #00000080;
+    background-blend-mode: multiply;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 88px;
+    padding: 80px 0;
+}
+
+
 @media screen and (min-width: 768px) {
     .hero-img {
         height: 620px;
@@ -92,7 +104,7 @@
     }
 
     /*PACOTES DE VIAGEM*/
-    .hero-img.hero-japao {
+    .hero-img.hero-japao, .hero-img.hero-blog, .hero-img.hero-contact {
         padding: 0;
     }
 
@@ -125,7 +137,15 @@
         background-blend-mode: multiply;
         background-position: center;
         background-size: cover;
-        padding: 0;
+    }
+
+    /*ENTRE EM CONTATO*/
+    .hero-img.hero-contact {
+        background: url(../img/contact-img/hero-contact-reverse.jpg) no-repeat;
+        background-color: #00000080;
+        background-blend-mode: multiply;
+        background-position: center;
+        background-size: cover;
     }
 }
 
@@ -151,7 +171,7 @@
 }
 
 @media screen and (min-width: 1440px) {
-    .hero-img.hero-japao, .hero-img.hero-blog {
+    .hero-img.hero-japao, .hero-img.hero-blog, .hero-img.hero-contact {
         padding-left: 120px;
     }
     .hero-title {
