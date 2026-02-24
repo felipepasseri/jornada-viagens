@@ -15,7 +15,8 @@
 
 .main-footer .footer-container .footer-content p {
     line-height: 28px;
-    width: 312px;
+    width: 100%;
+    max-width: 312px;
     margin: auto;
     margin-top: 8px;
 }
@@ -40,10 +41,10 @@
     }
 
     .main-footer .footer-container .footer-content p {
+        max-width: none;
         width: 592px;
         font-size: 1.25rem;
     }
-
 }
 
 @media screen and (min-width: 1024px) {
