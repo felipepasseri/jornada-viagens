@@ -143,6 +143,10 @@
     .other-posts .item {
         width: 648px;
     }
+
+    .other-posts .other-posts-items .item .button {
+        width: 280px;
+    }
 }
 
 @media screen and (min-width: 1024px) {
