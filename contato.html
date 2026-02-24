@@ -85,6 +85,54 @@
           </div>
         </div>
       </section>
+
+      <section class="contact-form">
+        <div class="section-title">
+          <h2>Preencha o formulário:</h2>
+          <hr />
+        </div>
+        <p id="form-description">
+          Temos uma equipe sempre em prontidão para resolver suas dúvidas,
+          problemas, trazer dicas e orientações objetivas para tornar sua
+          experiência o mais prazerosa e tranquila possível. Preencha seus dados
+          que vamos retornar seu contato conforme a urgência do seu chamado.
+          Pode confiar!
+        </p>
+
+        <form action="#" method="POST">
+          <input
+            type="text"
+            name="name"
+            id="userName"
+            placeholder="Seu nome"
+            title="Digite seu nome"
+          />
+          <br />
+          <input
+            type="number"
+            name="phoneNumber"
+            id="userPhoneNumber"
+            placeholder="Telefone"
+            pattern="[0-9]{11}"
+            title="Digite seu numero de telefone com 11 digitos, sem parenteses ou hífen"
+          />
+          <br />
+          <input
+            type="email"
+            name="email"
+            id="userEmail"
+            placeholder="Email"
+            title="Digite seu melhor email para que possamos responder"
+          />
+          <br />
+          <textarea
+            name="subject"
+            id="userSubject"
+            placeholder="Assunto"
+          ></textarea>
+          <button type="submit" class="button">Enviar</button>
+        </form>
+      </section>
     </main>
   </body>
 </html>

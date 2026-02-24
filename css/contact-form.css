@@ -1,0 +1,8 @@
+#form-description {
+    text-align: center;
+    font-size: 1rem;
+    font-weight: var(--text-weight);
+    line-height: 28px;
+    color: var(--text-primary-color);
+    margin-bottom: 56px;
+}
