@@ -58,6 +58,56 @@
     height: 300px;
 }
 
+/*OTHER POSTS*/
+.other-posts-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+
+.img-item {
+    margin-bottom: 24px;
+    width: 100%;
+    height: 360px;
+}
+
+.item h3 {
+    margin-bottom: 24px;
+}
+
+.item p {
+    margin-bottom: 24px;
+}
+
+.item {
+    width: 312px;
+}
+
+.item footer .button {
+    border-radius: 8px;
+    width: 100%;
+}
+
+
+.img-item.osaka {
+    background: url(../img/osaka-mobile.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.img-item.hiroshima {
+    background: url(../img/blog-img/hiroshima-mobile.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.img-item.kyoto {
+    background: url(../img/blog-img/kyoto-mobile.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
 @media screen and (min-width: 768px) {
     .article-blog {
         width: 648px;
