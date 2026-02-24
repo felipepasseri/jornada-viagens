@@ -59,6 +59,11 @@
 }
 
 /*OTHER POSTS*/
+
+.other-posts {
+    margin-bottom: 104px;
+}
+
 .other-posts-items {
     display: flex;
     flex-direction: column;
