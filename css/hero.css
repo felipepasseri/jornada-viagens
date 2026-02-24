@@ -73,6 +73,18 @@
     padding: 80px 0;
 }
 
+/*ENTRE EM CONTATO*/
+.hero-img.hero-contact {
+    background: url(../img/contact-img/hero-contact.jpg) no-repeat;
+    background-color: #00000080;
+    background-blend-mode: multiply;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 88px;
+    padding: 80px 0;
+}
+
+
 @media screen and (min-width: 768px) {
     .hero-img {
         height: 620px;
