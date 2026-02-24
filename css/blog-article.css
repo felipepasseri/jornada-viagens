@@ -133,10 +133,20 @@
         background-position: center;
         height: 300px;
     }
+
+    /*OTHER POSTS*/
+    .item {
+        width: 648px;
+    }
 }
 
 @media screen and (min-width: 1024px) {
     .article-blog {
+        width: 890px;
+    }
+
+    /*OTHER POSTS*/
+    .item {
         width: 890px;
     }
 }
@@ -156,5 +166,16 @@
 
     .article-blog section {
         margin-bottom: 48px;
+    }
+
+    /*OTHER POSTS*/
+    .other-posts-items {
+        flex-direction: row;
+        justify-content: center;
+        gap: 24px;
+    }
+
+    .item {
+        width: 384px;
     }
 }
