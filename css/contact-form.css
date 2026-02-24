@@ -12,6 +12,7 @@
     transition: 0.4s border;
     box-sizing: border-box;
     font-size: 1.25rem;
+    line-height: 32px;
     font-family: "Montserrat";
 }
 
@@ -40,4 +41,14 @@
     line-height: 28px;
     color: var(--text-primary-color);
     margin-bottom: 56px;
+    width: 100%;
 }
+
+@media screen and (min-width: 768px) {
+    .contact-form form .button {
+        border: none;
+        border-radius: 8px;
+        width: 280px;
+    }
+}
+
