@@ -123,6 +123,7 @@ section.hero {
 @media screen and (min-width: 1440px) {
     section {
         width: 1200px;
+        margin-bottom: 104px;
     }
 
     .button:hover {

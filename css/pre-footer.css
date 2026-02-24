@@ -17,6 +17,12 @@
     background-size: cover;
 }
 
+.pre-footer-img.contact-form-img {
+    background: url(../img/contact-img/pre-footer-contact.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
 @media screen and (min-width: 1440px) {
     
 
